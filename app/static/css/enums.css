@@ -1,0 +1,51 @@
+caption {
+  
+   caption-side: top;
+  
+   text-align: left;;
+  
+   padding: 10px 0;
+  font-size: 30px;
+
+}                                                                                                       
+
+
+
+table {
+ 
+   background: url("http://html5book.ru/images/blurry.jpg") no-repeat;
+ 
+   background-position: 100% 55px;
+  
+   font-size: 14px;               
+ 
+  text-align: center;                   
+ 
+}
+
+
+th {
+ 
+  font-size: 14px;
+
+  font-weight: normal;
+
+  color: #039;
+  padding: 10px 45px;
+
+}
+td
+ {
+  
+  font-size: 14px;
+  
+  color: #669;
+  
+  border-top: 1px solid #e8edff;
+
+  padding: 20px 45px;
+}
+
+tr:hover td{
+  background: #e8edff;
+}                                                                                                                                                                                                                         

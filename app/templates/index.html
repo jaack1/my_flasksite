@@ -1,0 +1,17 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{title}} - flasksite</title>
+    {% else %}
+    <title>Welcome to Flasksite</title>
+    {% endif %}
+  </head>
+  <body>
+    <h1>
+      Добро пожаловать на портал организации<br>
+      ФГБУ "Центр геодезии, картографии и ИПД"<br>
+    </h1>
+    <p>Ваш IP: {{ip}}</p>  
+    <p><a href="numbers">Список внутренних номеров</a></p>
+  </body>
+</html>
